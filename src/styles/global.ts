@@ -1,17 +1,16 @@
-import { globalCss } from "@ignite-ui/react";
+import { globalCss } from '@ignite-ui/react'
 
 export const globalStyles = globalCss({
-    '*': {
-        boxSizing: 'border-box',
-        padding: 0,
-        margin: 0,
-    },
+  '*': {
+    boxSizing: 'border-box',
+    padding: 0,
+    margin: 0,
+  },
 
-    body: {
-        backgroundColor: '$gray900',
-        color: 'gray100',
-        fontFamily: 'Roboto, sans-serif',
-        '-webkit-font-smoothing': 'antialiased',
-    },
-
+  body: {
+    backgroundColor: '$gray900',
+    color: '$gray100',
+    fontFamily: 'Roboto, sans-serif',
+    '-webkit-font-smoothing': 'antialiased',
+  },
 })
