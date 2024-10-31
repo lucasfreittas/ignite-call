@@ -8,7 +8,7 @@ import { Container, Header } from '../styles'
 import { signIn, useSession } from 'next-auth/react'
 
 
-export default function Register() {
+export default function ConnectCalendar() {
   // async function handleRegister() {
   // }
 
